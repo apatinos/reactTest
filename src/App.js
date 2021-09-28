@@ -1,9 +1,9 @@
 import './App.css';
-import Game from './presentation/components/game';
+import Routes from './presentation/router';
 
 
 function App() {
-  return ( <Game></Game> );
+  return ( <Routes /> );
 }
 
 export default App;
